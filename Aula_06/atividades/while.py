@@ -1,7 +1,7 @@
 # while
 banana = 1
 
-while banana <= 10
+while banana <= 10:
     print(banana)
     banana += 1
 #exemplo do for
