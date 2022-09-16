@@ -8,28 +8,28 @@
 # em Python, o comando While faz com que um conjunto de instruções seja executado enquanto uma condição é atendida.
 # Quando o resultado dessa condição passa a ser falso, a execução do loop é interrompida.
 
-#contador = 0
-#while (contador < 5):
-    #print(contador)
-    #contador = contador + 1
+contador = 0
+while (contador < 5):
+    print(contador)
+    contador = contador + 1
 
 # Ao final do While pode-se utilizar a instrução else para executar alguma instrução ou bloco de códigos ao final do loop.
 
-#contador = 0
-#while (contador < 5):
-    #print(contador)
-    #contador = contador + 1
-#else:
-    #print("O loop while foi encerrado com sucesso")
+contador = 0
+while (contador < 5):
+    print(contador)
+    contador = contador + 1
+else:
+    print("O loop while foi encerrado com sucesso")
 
 #No loop while, a expressão é testada enquanto for verdadeira. A partir do momento que ela se torna falsa, 
 #o código da cláusula else será executado, se estiver presente.
 
-#x = 0
-#while x < 10:
-    #x += 1
-#else:
-    #print("fim do while")
+x = 0
+while x < 10:
+    x += 1
+else:
+    print("fim do while")
 
 #Se dentro da repetição for executado um break, o loop será encerrado sem executar o conjunto else.
 
